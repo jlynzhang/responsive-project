@@ -1,3 +1,46 @@
+:root {
+  --primary-background-color: #24212b;
+  --heading-color: #a08cce;
+  --accent-color: #b58ab0;
+  --tertiary-color: #992f69;
+  --heading-font-family: "Caveat", cursive;
+  --heading-font-size: 70px;
+  --primary-font-family: "Fira Mono", monospace;
+}
+
 body {
-    background-color: purple;
+  color: white;
+  font-family: var(--primary-font-family);
+}
+
+.hero {
+  padding: 100px 0;
+  text-align: center;
+  background-color: var(--primary-background-color);
+}
+
+.hero h1 {
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  color: var(--heading-color);
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.emphasize {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--tertiary-color);
+}
+
+.container {
+  max-width: 630px;
 }
