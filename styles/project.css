@@ -5,11 +5,10 @@
   --tertiary-color: #992f69;
   --heading-font-family: "Caveat", cursive;
   --heading-font-size: 70px;
-  --primary-font-family: "Fira Mono", monospace;
+  --primary-font-family: "Raleway", sans-serif;
 }
 
 body {
-  color: white;
   font-family: var(--primary-font-family);
 }
 
@@ -19,18 +18,30 @@ body {
   background-color: var(--primary-background-color);
 }
 
-.hero h1 {
-  padding-bottom: 50px;
-}
-
 h1 {
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size);
   color: var(--heading-color);
 }
 
+.hero h1 {
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: var(--heading-font-family);
+  color: var(--tertiary-color);
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
 .hero p {
-    font-size: 18px;
+  font-size: 18px;
+  color: white;
 }
 
 .emphasize {
@@ -41,6 +52,56 @@ a:hover {
   color: var(--tertiary-color);
 }
 
-.container {
+.primary-text {
   max-width: 630px;
+  margin: 0 auto;
+}
+.container {
+  text-align: center;
+  margin-bottom: 75px;
+}
+.light-ver {
+  color: var(--primary-background-color);
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.underline {
+  text-decoration: underline var(--accent-color);
+}
+
+.bottom-section {
+  padding-top: 65px;
+  padding-bottom: 70px;
+  background-color: var(--primary-background-color);
+  border: 25px solid white;
+}
+
+.bottom-section h2 {
+  color: var(--heading-color);
+}
+
+.bottom-section h4,
+p {
+  color: white;
+}
+
+.color-red {
+  color: #e02622;
+}
+.color-orange {
+  color: #f88b28;
+}
+.color-yellow {
+  color: #eec002;
+}
+.color-pink {
+  color: #e497bf;
+}
+.color-purple {
+  color: #c3a2dd;
+}
+.color-white {
+  color: #dddccc;
 }
