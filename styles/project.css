@@ -104,14 +104,22 @@ ul {
   padding-bottom: 60px;
 }
 
-.alphabetical-sorting a, .to-top-link {
+.alphabetical-sorting a,
+.to-top-link {
   color: var(--accent-color);
+}
+.alphabetical-sorting a:hover {
+  color: var(--tertiary-color);
 }
 
 .to-top-link {
   text-align: center;
   display: block;
   padding-bottom: 100px;
+}
+
+.meanings-container ul {
+  padding: 0;
 }
 
 .color-red {
@@ -131,6 +139,46 @@ ul {
 }
 .color-white {
   color: #dddccc;
+}
+
+.sort-love,
+.sort-friendship,
+.sort-admiration,
+.sort-gratitude,
+.sort-sympathy,
+.sort-joy,
+.sort-patience,
+.sort-remembrance,
+.sort-kindness,
+.sort-peace,
+.sort-wisdom {
+  border: 1px solid var(--accent-color);
+  background: #b58ab03b;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.sort-love:hover,
+.sort-friendship:hover,
+.sort-admiration:hover,
+.sort-gratitude:hover,
+.sort-sympathy:hover,
+.sort-joy:hover,
+.sort-patience:hover,
+.sort-remembrance:hover,
+.sort-kindness:hover,
+.sort-peace:hover,
+.sort-wisdom:hover {
+  border: 1px solid var(--tertiary-color);
+  transition: 220ms ease-in-out;
+}
+
+.meanings-sorting {
+  text-align: center;
+  display: block;
+  padding: 22px 15px;
+  line-height: 3;
 }
 
 @media (max-width: 576px) {
@@ -154,7 +202,7 @@ ul {
     width: 80%;
   }
   .alphabetical-sorting {
-    font-size: 15px; 
+    font-size: 15px;
   }
 }
 
@@ -198,7 +246,7 @@ ul {
 }
 
 @media (min-width: 576px) {
-.to-top-link {
-  display: none;
-}
+  .to-top-link {
+    display: none;
+  }
 }
