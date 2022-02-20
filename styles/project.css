@@ -181,6 +181,24 @@ ul {
   line-height: 3;
 }
 
+.contact-p {
+  color: var(--tertiary-color);
+  font-size: 35px;
+}
+
+.contact-link {
+  color: var(--tertiary-color);
+}
+
+.contact-link:hover {
+  color: var(--accent-color);
+}
+
+.contact-flowers {
+  width: 75%;
+  border-radius: 25px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 53px;
@@ -204,10 +222,14 @@ ul {
   .alphabetical-sorting {
     font-size: 15px;
   }
+  .contact-section {
+    border: 10px solid white;
+  }
 }
 
 @media (max-width: 602px) {
-  .a-z-h3 {
+  .a-z-h3,
+  .meanings-h3 {
     padding: 0 22px;
   }
 }
@@ -236,6 +258,9 @@ ul {
   }
   .bottom-section p {
     font-size: 20px;
+  }
+  .contact-h1 {
+    padding: 0 30px;
   }
 }
 
