@@ -12,6 +12,17 @@ body {
   font-family: var(--primary-font-family);
 }
 
+.icon {
+  width: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--tertiary-color);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--tertiary-color);
+}
+
 .hero {
   padding: 100px 0;
   text-align: center;
@@ -171,7 +182,7 @@ ul {
 .sort-peace:hover,
 .sort-wisdom:hover {
   border: 1px solid var(--tertiary-color);
-  transition: 220ms ease-in-out;
+  transition: all 220ms ease-in-out;
 }
 
 .meanings-sorting {
@@ -197,6 +208,8 @@ ul {
 .contact-flowers {
   width: 75%;
   border-radius: 25px;
+  display: block;
+  margin: auto;
 }
 
 @media (max-width: 576px) {
